@@ -85,3 +85,17 @@ The base storefront can be found [here](https://github.com/medusajs/nextjs-start
 # medusajs-dockerized
 # medusajs-dockerized
 "# medusajs-docker" 
+
+install instructions
+
+cd storefront
+
+yarn
+
+cd backend
+
+yarn
+
+cd medusajs-dockerized
+
+docker compose up --build
