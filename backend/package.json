@@ -8,7 +8,7 @@
     "seed": "medusa seed -f ./seed.json",
     "build": "babel src -d dist --extensions \".ts,.js\"",
     "start": "medusa develop",
-    "dev": "medusa seed -f ./seed.json && medusa migrations run && medusa develop && medusa user -e some@email.com -p some-password"
+    "dev": "medusa migrations run && medusa develop && medusa user -e some@email.com -p some-password"
   },
   "dependencies": {
     "@medusajs/cache-inmemory": "^1.8.10",
