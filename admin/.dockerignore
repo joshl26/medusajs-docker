@@ -2,5 +2,11 @@
 .cache/
 .github/
 .storybook/
-public/
-node_modules/
+**/node_modules/
+**/dist
+.git
+npm-debug.log
+.coverage
+.coverage.*
+.env
+.aws
