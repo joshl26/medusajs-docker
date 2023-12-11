@@ -1,4 +1,4 @@
-#!/bin/bash
+#!//bin//bash
 
 medusa seed -f ./seed.json
 
