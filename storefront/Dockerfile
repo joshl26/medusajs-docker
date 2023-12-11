@@ -12,8 +12,7 @@ COPY yarn.* .
 RUN apk update
 
 # Install the dependencies
-RUN yarn --ignore-platform
-
+RUN yarn
 # Copy all files in the current directory (.) to the working directory in the container
 COPY . .
 

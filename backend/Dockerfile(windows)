@@ -14,7 +14,7 @@ COPY seed.json .
 RUN apk update
 
 # Install dependencies
-RUN yarn
+RUN yarn --ignore-platform
 
 # Install the medusa-cli
 RUN yarn global add @medusajs/medusa-cli@latest
