@@ -12,7 +12,7 @@ COPY yarn.* .
 RUN apk update
 
 # Install the dependencies
-RUN yarn
+RUN yarn --network-timeout 100000
 # Copy all files in the current directory (.) to the working directory in the container
 COPY . .
 
