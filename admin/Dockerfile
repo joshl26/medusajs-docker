@@ -12,7 +12,7 @@ COPY yarn.* .
 RUN apk update
 
 # Install sharp to enable image precessing
-RUN yarn add sharp 
+RUN yarn add sharp --network-timeout 100000 
 
 # Install the dependencies
 RUN yarn --network-timeout 100000
